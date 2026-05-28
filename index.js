@@ -17,7 +17,7 @@ app.listen(port, () => {
 
 //database
 mongoose
-  .connect("mongodb://172.19.0.1:27017/belajar_expressjs_db")
+  .connect("mongodb://localhost:27017/belajar_expressjs_db")
   .then(() => {
     console.log("connected to belajar_expressjs_db");
   })
